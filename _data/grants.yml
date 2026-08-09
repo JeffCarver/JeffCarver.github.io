@@ -35,8 +35,8 @@
   agency: "Sloan Foundation"
   agency_url: "https://sloan.org/"
   amount: "$249,432"
-  dates: "1/1/23 – 12/31/25"
-  end_date: 2025-12-31
+  dates: "1/1/23 – 6/30/27"
+  end_date: 2027-06-30
 
 - role: "Burian, S. (PI) and Carver, J. (Co-PI)"
   title: "Community Water Model Infrastructure, Stewardship, and Integration"
@@ -59,8 +59,8 @@
   agency: "National Science Foundation"
   agency_url: "https://www.nsf.gov/"
   amount: "$403,156"
-  dates: "10/1/20 – 9/30/23"
-  end_date: 2023-09-30
+  dates: "10/1/20 – 9/30/26"
+  end_date: 2026-09-30
 
 - role: "Carver, J. (Co-PI)"
   title: "Rural Communities Opioid Response Implementation"
@@ -92,8 +92,8 @@
   agency: "National Science Foundation"
   agency_url: "https://www.nsf.gov/"
   amount: "$3,101,017"
-  dates: "1/1/20 – 12/31/24"
-  end_date: 2024-12-31
+  dates: "1/1/20 – 12/31/26"
+  end_date: 2026-12-31
 
 - role: "Carver, J. (PI)"
   title: "BSSW Fellowship"

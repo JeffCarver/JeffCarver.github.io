@@ -2,10 +2,23 @@
 layout: page
 permalink: /grants/
 title: grants
-description: Funded grants and contracts, reverse chronological order.
+description: Funded grants and contracts.
 nav: true
 nav_order: 2
 ---
 
-{% for grant in site.data.grants %}{{ forloop.index }}. {{ grant.role }}. "{{ grant.title }}." [{{ grant.agency }}]({{ grant.agency_url }}){% if grant.note %} ({{ grant.note }}){% endif %}. {{ grant.amount }}{% if grant.dates %}. {{ grant.dates }}{% endif %}.
-{% endfor %}
+{% assign today = site.time | date: '%s' %}
+
+## Active Grants
+
+{% assign n = 0 %}
+{% for grant in site.data.grants %}{% assign is_active = false %}{% if grant.end_date %}{% assign end_ts = grant.end_date | date: '%s' %}{% if end_ts >= today %}{% assign is_active = true %}{% endif %}{% endif %}{% if is_active %}{% assign n = n | plus: 1 %}
+{{ n }}. {{ grant.role }}. "{{ grant.title }}." [{{ grant.agency }}]({{ grant.agency_url }}){% if grant.note %} ({{ grant.note }}){% endif %}. {{ grant.amount }}{% if grant.dates %}. {{ grant.dates }}{% endif %}.
+{% endif %}{% endfor %}
+
+## Completed Grants
+
+{% assign n = 0 %}
+{% for grant in site.data.grants %}{% assign is_active = false %}{% if grant.end_date %}{% assign end_ts = grant.end_date | date: '%s' %}{% if end_ts >= today %}{% assign is_active = true %}{% endif %}{% endif %}{% unless is_active %}{% assign n = n | plus: 1 %}
+{{ n }}. {{ grant.role }}. "{{ grant.title }}." [{{ grant.agency }}]({{ grant.agency_url }}){% if grant.note %} ({{ grant.note }}){% endif %}. {{ grant.amount }}{% if grant.dates %}. {{ grant.dates }}{% endif %}.
+{% endunless %}{% endfor %}

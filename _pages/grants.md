@@ -7,6 +7,10 @@ nav_order: 2
 ---
 
 {% assign today = site.time | date: '%s' %}
+{% assign total = 0 %}
+{% for grant in site.data.grants %}{% unless grant.role contains "Senior Personnel" %}{% assign clean_amount = grant.amount | remove: "$" | remove: "," | split: " " | first | plus: 0 %}{% assign total = total | plus: clean_amount %}{% endunless %}{% endfor %}
+
+**Jeffrey Carver has been awarded a total of ${{ total | number_with_delimiter }} in funding as PI or Co-PI.**
 
 ## Active Grants
 

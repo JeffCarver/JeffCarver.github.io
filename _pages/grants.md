@@ -2,7 +2,6 @@
 layout: page
 permalink: /grants/
 title: grants
-description: Funded grants and contracts.
 nav: true
 nav_order: 2
 ---

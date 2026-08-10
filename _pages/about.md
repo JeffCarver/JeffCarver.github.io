@@ -19,7 +19,7 @@ selected_papers: true
 social: true
 ---
 
-<h3>Empirical Software Engineering Researcher</h3>
+<h2>Empirical Software Engineering Researcher</h2>
 <h4>Specific Topic Areas
 <ul>
   <li>Research Software/Research Software Engineering</li>

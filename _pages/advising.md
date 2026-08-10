@@ -10,14 +10,17 @@ nav_order: 7
 #### Current Students (Ph.D.)
 
 - Lacey Wicks (2019–present)
-- Matthew Armstrong (2019–present)
 - Md Niaz Morshed (2021–present)
 - Shiza Andleeb (2022–present)
 - Awwal Badru (2023–present)
 - Md Ariful Malik (2023–present)
+- Md Rawnak Saif Adib (2025-present)
+- Md Safayat Hossen (2025-present)
+- Connor Brynteson (2026-present)
 
 #### Completed Students — Ph.D.
 
+- Matthew Armstrong (2019–2026) - Vanderbilt University Medical Center
 - Sweta Mahaju (2016–2022)
 - Eduardo Caballero (2017–2021) — Full-time professor with doctorate, Universidad Tecnológica de Panamá
 - Nasir Eisty (2016–2020) — Assistant Professor, Department of Computer Science, Boise State University

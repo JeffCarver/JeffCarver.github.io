@@ -3,6 +3,18 @@
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
+      {%- if entry.type == 'journal' -%}
+        {% assign type_label = 'Journal' %}
+      {%- elsif entry.type == 'conference' -%}
+        {% assign type_label = 'Conference' %}
+      {%- elsif entry.type == 'editorial' -%}
+        {% assign type_label = 'Editorial' %}
+      {%- elsif entry.type == 'workshop' -%}
+        {% assign type_label = 'Other' %}
+      {%- endif -%}
+      {%- if type_label -%}
+        <span class="badge rounded w-100 type-badge type-{{ entry.type }}">{{ type_label }}</span>
+      {%- endif -%}
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}

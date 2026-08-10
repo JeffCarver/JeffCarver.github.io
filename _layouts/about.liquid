@@ -56,12 +56,20 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
+    <!-- Selected publications -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">recent publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Active grants -->
+    {% if page.active_grants %}
+      <h2>
+        <a href="{{ '/grants/' | relative_url }}" style="color: inherit">active grants</a>
+      </h2>
+      {% include active_grants.liquid %}
     {% endif %}
 
     <!-- Social -->

@@ -17,6 +17,7 @@ profile:
 
 news: false
 selected_papers: true
+active_grants: true
 social: true
 ---
 

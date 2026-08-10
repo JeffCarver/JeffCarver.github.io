@@ -9,16 +9,25 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Department of Computer Science</p>
-    <p>University of Alabama</p>
+    <p><a href="https://cs.ua.edu">Department of Computer Science</a></p>
+    <p><a href="https://www.ua.edu/">University of Alabama</a></p>
     <p>Box 870290, Tuscaloosa, AL 35487</p>
     <p>(205) 348-9829</p>
+    <p>carver@cs.ua.edu</p>
 
 news: false
 selected_papers: true
 social: true
 ---
 
-I am the James R. Cudworth Professor and Associate Department Head for Graduate Studies in the [Department of Computer Science](https://cs.ua.edu/) at [The University of Alabama](https://www.ua.edu/). I completed my Ph.D. under the supervision of Dr. Victor Basili at the [University of Maryland](https://www.umd.edu/).
+<p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;">Empirical Software Engineering Researcher</p>
 
-My research interests lie in the area of empirical software engineering and human factors in software engineering. My work focuses on topics including software engineering for research software, software quality assurance, peer code review, software security, human error, and software engineering education.
+<p style="font-size: 1.15rem; margin-bottom: 0.25rem;">Specific Topic Areas:</p>
+
+<ul style="font-size: 1.15rem;">
+  <li>Research Software / Research Software Engineering</li>
+  <li>Peer Code Review</li>
+  <li>Human Factors</li>
+  <li>Software Security</li>
+  <li>Software Engineering Education</li>
+</ul>

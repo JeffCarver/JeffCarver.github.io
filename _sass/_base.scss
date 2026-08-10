@@ -219,6 +219,26 @@ ul.task-list input[type="checkbox"] {
   font-size: 1.25rem;
 }
 
+.type-badge {
+  font-size: 0.7rem;
+
+  &.type-journal {
+    background-color: #4a6fa5;
+  }
+
+  &.type-conference {
+    background-color: #4c8c4a;
+  }
+
+  &.type-editorial {
+    background-color: #8e5ea8;
+  }
+
+  &.type-workshop {
+    background-color: #757575;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 22.5%;

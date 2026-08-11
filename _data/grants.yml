@@ -1,4 +1,14 @@
 - role: "Carver, J. (PI)"
+  title: "Collaborative Research: Software Engineering Tutor - A Cohesive, Integrated Feedback Engine to Support Inquiry-Based Learning of Software Engineering Concepts"
+  agency: "National Science Foundation"
+  agency_url: "https://www.nsf.gov/"
+  award_number: "2540091"
+  award_url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2540091"
+  amount: "$645,053"
+  dates: "10/1/26 – 9/30/31"
+  end_date: 2031-09-30
+
+- role: "Carver, J. (PI)"
   title: "Collaborative Research: Planning: CROSS: Building a Community aROund Securing the Research Software Supply Chain"
   agency: "National Science Foundation"
   agency_url: "https://www.nsf.gov/"

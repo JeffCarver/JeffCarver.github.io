@@ -32,3 +32,10 @@ social: true
   <li>Software Security</li>
   <li>Software Engineering Education</li>
 </ul>
+
+<p style="font-size: 1.15rem; margin-bottom: 0.25rem;">Current Activities:</p>
+
+<ul style="font-size: 1.15rem;">
+  <li>Editor-in-Chief — <em>Computing in Science &amp; Engineering</em></li>
+  <li>Vice Chair — United States Research Software Engineering Association Steering Committee</li>
+</ul>

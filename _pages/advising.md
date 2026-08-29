@@ -2,7 +2,6 @@
 layout: page
 permalink: /advising/
 title: advising
-description: Current and previous students.
 nav: true
 nav_order: 5
 ---

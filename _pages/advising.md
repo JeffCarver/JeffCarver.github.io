@@ -4,7 +4,7 @@ permalink: /advising/
 title: advising
 description: Current and previous students.
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 
 #### Current Students (Ph.D.)

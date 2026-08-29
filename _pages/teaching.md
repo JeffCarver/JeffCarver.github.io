@@ -4,7 +4,7 @@ permalink: /teaching/
 title: courses
 description: Courses taught.
 nav: true
-nav_order: 8
+nav_order: 6
 ---
 
 #### The University of Alabama

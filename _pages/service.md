@@ -2,7 +2,6 @@
 layout: page
 permalink: /service/
 title: service
-description: Editorial, steering committee, and conference committee service.
 nav: true
 nav_order: 4
 ---

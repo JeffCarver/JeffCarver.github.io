@@ -21,9 +21,9 @@ active_grants: true
 social: true
 ---
 
-<p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;">Empirical Software Engineering Researcher</p>
+<p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;">Empirical Software Engineering Research</p>
 
-<p style="font-size: 1.15rem; margin-bottom: 0.25rem;">Specific Topic Areas:</p>
+<p style="font-size: 1.15rem; margin-bottom: 0.25rem;">Current Focus Areas:</p>
 
 <ul style="font-size: 1.15rem;">
   <li>Research Software / Research Software Engineering</li>

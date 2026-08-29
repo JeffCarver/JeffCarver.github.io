@@ -18,7 +18,7 @@ nav_order: 4
 
 ## Steering Committees
 
-- **US-RSE** — United States Research Software Engineering Association (2018–present) [Founding Member]
+- **US-RSE** — United States Research Software Engineer Association (2018–present) [Founding Member]
 - **ISERN** — International Software Engineering Research Network (2019–present)
 - **ESEM** — International Symposium on Empirical Software Engineering and Measurement (2017–2024)
 

@@ -36,6 +36,6 @@ social: true
 <p style="font-size: 1.15rem; margin-bottom: 0.25rem;">Current Activities:</p>
 
 <ul style="font-size: 1.15rem;">
-  <li>Editor-in-Chief — <em>Computing in Science &amp; Engineering</em></li>
-  <li>Vice Chair — United States Research Software Engineering Association Steering Committee</li>
+  <li>Editor-in-Chief — <em><a href="https://www.computer.org/csdl/magazine/cs">Computing in Science &amp; Engineering</a></em></li>
+  <li>Vice Chair of Steering Committee — <a href="https://us-rse.org/">United States Research Software Engineer Association</a></li>
 </ul>

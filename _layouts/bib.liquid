@@ -60,6 +60,15 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
+    <!-- Venue -->
+    {% if entry.journal %}
+      {% capture venue %}<em>{{ entry.journal }}</em>{% endcapture %}
+    {% elsif entry.booktitle %}
+      {% capture venue %}<em>{{ entry.booktitle }}</em>{% endcapture %}
+    {% endif %}
+    {% if venue %}
+      <div class="venue">{{ venue | strip }}</div>
+    {% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}

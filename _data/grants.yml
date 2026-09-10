@@ -53,8 +53,8 @@
   agency: "Sloan Foundation"
   agency_url: "https://sloan.org/"
   amount: "$249,432"
-  dates: "1/1/23 – 6/30/27"
-  end_date: 2027-06-30
+  dates: "1/1/23 – 5/31/27"
+  end_date: 2027-05-31
 
 - role: "Burian, S. (PI) and Carver, J. (Co-PI)"
   title: "Community Water Model Infrastructure, Stewardship, and Integration"
